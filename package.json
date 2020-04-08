@@ -1,0 +1,23 @@
+{
+  "name": "rhapsodist-blog-2020-04",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "rhapsodist",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "marked": "^0.8.2",
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "frontmatter-markdown-loader": "^3.3.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  }
+}
